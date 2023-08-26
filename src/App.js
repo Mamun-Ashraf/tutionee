@@ -1,10 +1,12 @@
 // import { Link } from 'react-router-dom';
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
+import router from './Routers/Routes';
 
 function App() {
   return (
-    <div>
-      <h1>Wellcome to Tutionee.com</h1>
+    <div className=' '>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
